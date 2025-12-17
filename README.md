@@ -29,20 +29,18 @@ Participants are expected to dedicate **2–4 hours per day**. Daily reporting a
 
 ## Repository Structure
 --
-.
-├── README.md          # High-level overview of the challenge
-├── PROGRESS.md        # Central day-by-day progress log (120 days)
-├── week_1/
-│   ├── day_1/
-│   │   ├── README.md  # Daily summary (goals, work, learnings)
-│   │   ├── notes.md   # Optional theory notes
-│   │   └── codes.py      # Scripts, notebooks, experiments
-│   └── day_2/
-├── week_2/
-├── .gitignore
-└── LICENSE
+
+- **README.md** → High-level overview of the challenge, objectives, and guidelines  
+- **PROGRESS.md** → Central log summarizing progress across all 120 days  
+- **week_n/day_n/** → Daily folders containing:
+  - `README.md` → Daily summary (goals, work, learnings)  
+  - `notes.md` → Optional theory notes or reflections  
+  - `codes.py` → Scripts, notebooks, or experiments for that day  
+- **.gitignore** → Git configuration to exclude unnecessary files  
+- **LICENSE** → License information for the repository  
 
 ---
+
 
 ## Curriculum and Learning Path
 - **Week 1:** Rapid assessment and improvement in basic Python  
